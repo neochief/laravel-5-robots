@@ -42,6 +42,8 @@ You can also optionally add the following to the `aliases` array:
 
 # Usage
 
+Delete projects default public/robots.txt  
+
 Add the following to your routes file:
 
 ```php
