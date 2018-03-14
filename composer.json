@@ -21,5 +21,15 @@
             "EllisTheDev\\Robots\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EllisTheDev\\Robots\\RobotsServiceProvider"
+            ],
+            "aliases": {
+                "Robots": "EllisTheDev\\Robots\\RobotsFacade"
+            }
+        }
+    }
 }
