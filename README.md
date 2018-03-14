@@ -28,7 +28,7 @@ Add the package to your `composer.json`:
 
 ## Step 2: Configuration
 
-Add the following to your `config/app.php` in the `providers` array:
+You can skip this step if your version of Laravel is 5.5 or above. Otherwise, you have to add the following to your `config/app.php` in the `providers` array:
 
 ```
 'EllisTheDev\Robots\RobotsServiceProvider',
